@@ -12,7 +12,7 @@ Crie uma classe chamada **ContaBancaria** com os seguintes requisitos:
 * `sacar()`: Retira o valor do saldo.
 * `mostrarSaldo()`: Imprime o saldo atual.
 
-### 🚀 Execução (App):
+### 🚀 Execução:
 1. Crie uma conta.
 2. Defina o titular.
 3. Deposite 100.
