@@ -21,7 +21,7 @@ public class Produto {
     void mostrarEstoque() {
 
         System.out.println("Produto: " + nome);
-        System.out.println("Preço: R$" + preco);
+        System.out.println("Preço: R$" + String.format("%.2f", preco));
         System.out.println("Quantidade em estoque:" + quantidade);
     }
 

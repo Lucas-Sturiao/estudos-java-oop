@@ -9,8 +9,8 @@ Crie uma classe chamada **Produto** com os seguintes requisitos:
 * `quantidade`
 
 **Métodos:**
-* `adicionarEstoque(int quantidade)`: Aumenta a quantidade atual.
-* `removerEstoque(int quantidade)`: Só remove se houver quantidade suficiente. Caso contrário, imprime: "Estoque insuficiente".
+* `adicionarEstoque()`: Aumenta a quantidade atual.
+* `removerEstoque()`: Só remove se houver quantidade suficiente. Caso contrário, imprime: "Estoque insuficiente".
 * `mostrarEstoque()`: Imprime o nome, preço e a quantidade atual em estoque.
 
 ### 🚀 Execução:
