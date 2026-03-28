@@ -1,6 +1,6 @@
 # Exercício 01: Classe Carro
 
-### 📝 Proposta
+### 📝 Proposta:
 Crie uma classe chamada **Carro** com os seguintes requisitos:
 
 **Atributos:**
@@ -12,7 +12,7 @@ Crie uma classe chamada **Carro** com os seguintes requisitos:
 * `acelerar()`: Aumenta a velocidade em 10.
 * `mostrarVelocidade()`: Imprime a velocidade atual.
 
-### 🚀 No Main:
+### 🚀 Execução (App):
 1. Crie um objeto do tipo `Carro`.
 2. Defina a marca e o modelo.
 3. Chame o método `acelerar()` 2 vezes.
