@@ -1,6 +1,6 @@
-package com.exercicios.ex05;
+package com.exercicios.ex005;
 
-public class Main05 {
+public class Main005 {
 
     public static void main(String[] args) {
 

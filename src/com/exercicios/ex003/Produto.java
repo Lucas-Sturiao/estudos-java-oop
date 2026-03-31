@@ -1,4 +1,4 @@
-package com.exercicios.ex03;
+package com.exercicios.ex003;
 
 public class Produto {
 

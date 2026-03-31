@@ -1,6 +1,6 @@
-package com.exercicios.ex06;
+package com.exercicios.ex006;
 
-public class Main06 {
+public class Main006 {
 
     public static void main(String[] args) {
         Celular celularDoLucas = new Celular("Samsung", "A52", 50);

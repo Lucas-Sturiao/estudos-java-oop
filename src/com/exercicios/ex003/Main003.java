@@ -1,6 +1,6 @@
-package com.exercicios.ex03;
+package com.exercicios.ex003;
 
-public class Main03 {
+public class Main003 {
 
     public static void main(String[] args) {
         Produto sapato = new Produto();

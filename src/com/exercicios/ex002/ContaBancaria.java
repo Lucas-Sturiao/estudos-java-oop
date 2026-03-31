@@ -1,4 +1,4 @@
-package com.exercicios.ex02;
+package com.exercicios.ex002;
 
 public class ContaBancaria {
 

@@ -1,4 +1,4 @@
-package com.exercicios.ex04;
+package com.exercicios.ex004;
 
 public class Aluno {
 

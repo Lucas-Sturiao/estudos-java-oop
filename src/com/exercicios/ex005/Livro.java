@@ -1,4 +1,4 @@
-package com.exercicios.ex05;
+package com.exercicios.ex005;
 
 public class Livro {
     String titulo;

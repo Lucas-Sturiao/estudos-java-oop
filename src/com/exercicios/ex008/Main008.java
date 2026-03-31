@@ -1,6 +1,6 @@
-package com.exercicios.ex08;
+package com.exercicios.ex008;
 
-public class Main {
+public class Main008 {
 
     public static void main(String[] args) {
         Conta conta1 = new Conta("Lucas", 100);

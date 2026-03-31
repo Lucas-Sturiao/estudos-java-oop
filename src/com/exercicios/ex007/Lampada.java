@@ -1,4 +1,4 @@
-package com.exercicios.ex07;
+package com.exercicios.ex007;
 
 public class Lampada {
     String marca;

@@ -1,4 +1,4 @@
-package com.exercicios.ex06;
+package com.exercicios.ex006;
 
 public class Celular {
     String marca;

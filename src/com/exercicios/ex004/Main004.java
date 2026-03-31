@@ -1,6 +1,6 @@
-package com.exercicios.ex04;
+package com.exercicios.ex004;
 
-public class Main04 {
+public class Main004 {
 
     public static void main(String[] args) {
         Aluno aluno1 = new Aluno();

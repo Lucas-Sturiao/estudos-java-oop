@@ -1,4 +1,4 @@
-package com.exercicios.ex01;
+package com.exercicios.ex001;
 
 public class Carro {
 

@@ -1,4 +1,4 @@
-package com.exercicios.ex08;
+package com.exercicios.ex008;
 
 public class Conta {
 
