@@ -5,16 +5,25 @@ public class Conta {
     private String titular;
     private double saldo;
 
-    Conta(String titular, double saldo) {
+    public Conta(String titular, double saldo) {
         this.titular = titular;
         this.saldo = saldo;
     }
 
-    void depositar(double valor) {
-        saldo += valor;
+    public void depositar(double valor) {
+        if (valor > 0) {
+            saldo += valor;
+        } else {
+            System.out.println("Valor insuficiente para depósito. Favor depositar um valor maior que zero.");
+        }
     }
 
-    void sacar(double valor) {
+    public void sacar(double valor) {
+        if (valor < 0) {
+            System.out.println("Valor inválido para saque.");
+            return;
+        }
+
         if (saldo >= valor) {
             saldo -= valor;
         } else {
@@ -22,19 +31,18 @@ public class Conta {
         }
     }
 
-    void transferir(double valor, Conta destino) {
+    public void transferir(double valor, Conta destino) {
         if(saldo >= valor) {
             sacar(valor);
             destino.depositar(valor);
         } else {
-            System.out.println("Saldo Insuficiente. Seu saldo atual é: R$" + saldo);
+            System.out.println("Saldo Insuficiente. Seu saldo atual é: R$" + String.format("%.2f", saldo));
         }
     }
 
-
-    void mostrarSaldo() {
+    public void mostrarSaldo() {
         System.out.println("Titular: " + titular);
-        System.out.println("Saldo: R$" + saldo);
+        System.out.println("Saldo: R$" + String.format("%.2f", saldo));
     }
 
 }
